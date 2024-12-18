@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Limpia Susini</title>
+    <link rel="stylesheet" href="Apropos.css">
+</head>
+<body>
+    <header>
+        <nav class='navbar' aria-label="Navigation principale">
+            <div class="logo">
+                <img src="assets/Logo.png" alt="Description de mon logo">
+            </div>
+            <button class="toggle-btn" id="toggle-btn">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="HomePage.html" tabindex="1">Limpia Susini</a>
+                </li>
+                
+                <li>
+                    <a href="Travaux.html" tabindex="2">Travaux</a>
+                </li>
+                
+                <li>
+                    <a href="APropos.html" tabindex="3">À propos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<script>
+    const toggleButton = document.getElementById('toggle-btn');
+    const navlink = document.getElementById('nav-link');
+
+    toggleButton.addEventListener('click', () => {
+        navlink.classList.toggle('active');
+    })
+</script>
