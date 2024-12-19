@@ -57,6 +57,11 @@ header {
     font-size: 1.5rem;
 }
 
+.logo img {
+    width: 9vw;
+    height: 13vh;
+}
+
 @media (max-width:780px) {
     .nav-links {
         display: none;
@@ -80,4 +85,40 @@ h1 {
     padding: 30px 40px;
     display: inline-block;
     border-radius: 10px;
+}
+
+footer {
+    background-color: #20448C;
+    padding: 20px 0;
+    display:flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    margin: auto;
+}
+
+footer p {
+    color: #FFBC24;
+    font-size:x-large;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-family: 'Lusitana';
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFBC24;
+    cursor: pointer;
+}
+
+.icons a img {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
 }

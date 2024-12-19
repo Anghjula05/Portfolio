@@ -55,8 +55,11 @@ header {
 
 .logo {
     font-size: 1.5rem;
-    width: 17vh;
-    height: 17vh;
+}
+
+.logo img {
+    width: 9vw;
+    height: 13vh;
 }
 
 @media (max-width:780px) {

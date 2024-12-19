@@ -56,6 +56,11 @@ header {
     font-size: 1.5rem;
 }
 
+.logo img {
+    width: 9vw;
+    height: 13vh;
+}
+
 @media (max-width:780px) {
     .nav-links {
         display: none;
