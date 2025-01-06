@@ -45,6 +45,10 @@ header {
     display: flex;
 }
 
+.nav-links li:hover {
+    scale: 2
+}
+
 .toggle-btn {
     display: none;
     background: none;
@@ -105,15 +109,6 @@ h1 {
     font-size: 3rem;
     font-family: 'Lusitana';
 }
-
-.arrow {
-    margin-top: 10px;
-    font-size: 10rem;
-    color: #FFD340;
-    display: flex;
-    justify-content: center;
-}
-
 
 footer {
     background-color: #20448C;
