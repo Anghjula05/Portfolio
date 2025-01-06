@@ -45,7 +45,7 @@ header {
     display: flex;
 }
 
-.nav-links li:hover {
+.nav-links li a:hover{
     scale: 2
 }
 
