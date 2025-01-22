@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, white, lightblue);
 }
 
@@ -146,11 +145,10 @@ h1 {
 
 footer {
     background-color: #20448C;
+    padding: 20px 0;
     display:flex;
-    position: fixed;
     bottom: 0;
-    height: 10%;
-    width: 100vw;
+    width: 100%;
 }
 
 .contact {

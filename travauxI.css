@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #063251;
+    background: linear-gradient(to bottom, white, lightblue);
 }
 
 a:focus {
@@ -58,7 +57,7 @@ header {
 }
 
 .logo img {
-    height: 13vh;
+    width: 13vh;
     border-radius: 0.5rem;
     border-radius: 9999px
 }
@@ -77,15 +76,34 @@ header {
 
 .container {
     text-align: center;
+    text-align: center;
+    justify-content: center;
 }
 
 h1 {
     background-color: #20448C;
     color: #FFBC24;
-    font-size: 6rem;
+    font-size: 5rem;
     padding: 30px 40px;
-    border-radius: 10px;
     display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    margin: 15px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #005E94;
+    color: #FFC94D;
+    padding: 45px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Lusitana';
 }
 
 .grid-container {
@@ -107,8 +125,8 @@ h1 {
 }
 
 .project-card img {
-    width: 250px;
-    height: 40%;
+    width: 200px;
+    height: 50%;
 }
 
 .project-info {
@@ -119,15 +137,6 @@ h1 {
 }
 
 .project-info h3 {
-    color: #FFBC24;
-}
-
-.project-info p {
-
-}
-
-.project-info button {
-    background-color: #000;
     color: #FFBC24;
 }
 
@@ -143,7 +152,8 @@ h1 {
 
 footer {
     background-color: #20448C;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
     display:flex;
     bottom: 0;
     width: 100%;
