@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Limpia Susini</title>
+    <link rel="stylesheet" href="travaux.css">
+</head>
+<body>
+    <header>
+        <nav class='navbar'>
+            <div class="logo">
+                <img src="img/logo.png" alt="Description de mon logo">
+            </div>
+            <button class="toggle-btn" id="toggle-btn">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="index.html" tabindex="1">Limpia Susini</a>
+                </li>
+                
+                <li>
+                    <a href="travaux.html" tabindex="2">Travaux</a>
+                </li>
+                
+                <li>
+                    <a href="aPropos.html" tabindex="3">À propos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<script>
+    const toggleButton = document.getElementById('toggle-btn');
+    const navlink = document.getElementById('nav-link');
+
+    toggleButton.addEventListener('click', () => {
+        navlink.classList.toggle('active');
+    })
+</script>
+
+    <main>
+
+        <div class="container">
+            <h1>Mes Travaux</h1>
+            </div>
+            <div class="grid-container">
+        
+                <div class="project-card">
+                    <img src="travaux/illustrator.png" alt="Illustrator">
+                    <div class="project-info">
+                    <h3>Illustrator</h3>
+
+                    <a href="travauxI.html" tabindex="4">
+                        <button>Voir mes travaux sur Illustrator</button>
+                    </a>
+                    
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="travaux/canva.png" alt="Canva">
+                    <div class="project-info">
+                    <h3>Canva</h3>
+
+                    <a href="travauxC.html" tabindex="5">
+                        <button>Voir mes travaux sur Canva</button>
+                    </a>
+
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="travaux/photoshop.png" alt="Photoshop">
+                    <div class="project-info">
+                    <h3>Photoshop</h3>
+                    <button>Voir mes travaux sur Photoshop</button>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="travaux/htmlcss.png" alt="HTML/CSS">
+                    <div class="project-info">
+                    <h3>HTML/CSS</h3>
+                    <button>Voir mes travaux sur en HTML/CSS</button>
+                    </div>
+                </div>
+        
+            </div>
+
+    </main>
+    <footer>
+        <div class="contact">
+            <p>Contactez-moi :</p>
+            <div class="icons">
+                <a href="#" tabindex="6"><img src= "contact/phone.png" alt="Téléphone"></a>
+                <a href="#" tabindex="7"><img src="contact/instagram.png" alt="Instagram"></a>
+                <a href="#" tabindex="8"><img src="contact/twitter.png" alt="Twitter"></a>
+                <a href="#" tabindex="9"><img src="contact/mail.png" alt="Email"></a>
+            </div>
+        </div>
+        <a href="http://www.onlinewebfonts.com" tabindex="10">Web Fonts</a>
+    </footer>
+</body>
+</html>
